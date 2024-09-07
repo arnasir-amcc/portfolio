@@ -68,15 +68,15 @@ navigation-bar {
   font-size: 40px;
   /* Credits to cssgradient.io */
   background: rgb(0,0,0);
-background: -moz-radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,95,122,1) 11%, rgba(181,234,252,1) 41%, rgba(0,0,0,1) 70%, rgba(0,0,0,1) 100%);
-background: -webkit-radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,95,122,1) 11%, rgba(181,234,252,1) 41%, rgba(0,0,0,1) 70%, rgba(0,0,0,1) 100%);
-background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,95,122,1) 11%, rgba(181,234,252,1) 41%, rgba(0,0,0,1) 70%, rgba(0,0,0,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1); 
+  background: -moz-radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 8%, rgba(106,90,205,1) 11%, rgba(56,47,108,1) 20%, rgba(0,0,0,1) 60%, rgba(62,52,119,1) 100%);
+  background: -webkit-radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 8%, rgba(106,90,205,1) 11%, rgba(56,47,108,1) 20%, rgba(0,0,0,1) 60%, rgba(62,52,119,1) 100%);
+  background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 8%, rgba(106,90,205,1) 11%, rgba(56,47,108,1) 20%, rgba(0,0,0,1) 60%, rgba(62,52,119,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#3e3477",GradientType=1); 
 }
 
 #name-box {
   padding: 20px;
-  border: 1px solid grey;
+  border: 1px solid slateblue;
 }
 
 .navigation-grid {
@@ -86,8 +86,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
 .navigation-tabs {
   display: flex;
   justify-content: center;
-  color: red;
-  border: 1px solid grey;
+  color: slateblue;
+  border: 1px solid slateblue;
   padding: 50px;
   font-size: 22px;
   /* 25% each button -> 4 buttons due to grid-template-columns 4 autos */
@@ -125,7 +125,7 @@ footer {
 /* From Uiverse.io by javierBarroso */ 
 .name {
   font-size: 50px;
-  color: grey;
+  color: white;
   font-family: inherit;
   font-weight: 800;
   cursor: pointer;
@@ -142,8 +142,8 @@ footer {
 .name:focus,
 .name:hover {
   transition-duration: 500ms;
-  color: #222222aa;
-  background: linear-gradient(0, #0f0, #000 70%, #000 99%);
+  /* If you want to change colour on hover ------  color: red; */
+  background: linear-gradient(0, red, white 70%, white 99%);
   background-clip: text;
   -webkit-background-clip: text;
 }
@@ -162,7 +162,7 @@ footer {
   position: absolute;
   width: 0%;
   height: 5px;
-  background-color: #dfffdf;
+  background-color: slateblue;
   transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
   transition-duration: 500ms;
   transition-property: width, left;
@@ -182,7 +182,7 @@ footer {
   position: absolute;
   width: 0%;
   height: 5px;
-  background-color: #0f0;
+  background-color: purple;
   transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
   transition-duration: 500ms;
   transition-property: width, left;
