@@ -55,7 +55,6 @@ navigation-bar {
 
 .grid-container {
   display: grid;
-  
 }
 
 /* Grid for Header area (nav included) */
@@ -63,7 +62,7 @@ navigation-bar {
 #name-banner {
   display: flex;
   justify-content: center;
-  padding: 50px;
+  padding: 80px;
   color: grey;
   border: 2px solid grey;
   font-size: 40px;
@@ -75,10 +74,19 @@ background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,95,122,1) 11%, rgba
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1); 
 }
 
+.navigation-grid {
+  grid-template-columns: auto auto auto auto;
+}
 
-.navigation-bar {
+.navigation-tabs {
   display: flex;
   justify-content: center;
+  color: red;
+  border: 1px solid grey;
+  padding: 50px;
+  font-size: 22px;
+  /* 25% each button -> 4 buttons due to grid-template-columns 4 autos */
+  flex-basis: 25%;
 }
 
 /* Grid for Body area */
