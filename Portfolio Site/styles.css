@@ -130,15 +130,30 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   margin-top: 15px;
-  
 }
 
 #about-page-text {
   grid-column-end: span 3;
 }
 
-#about-page-text-2 {
+#about-page-full-width-text {
   grid-column-end: span 4;
+}
+
+#about-page-skill-title {
+  grid-column-end: span 4;
+  font-size: 32px;
+  font-family: NameBanner;
+}
+
+#skill-list {
+  border-left: #560bad solid 3px;
+  list-style-type: none;
+  padding: 10px 20px;
+}
+
+.skill-headings {
+  font-family: NameBanner;
 }
 
 
@@ -273,9 +288,11 @@ footer {
 /*  SECTION: PAGE STRUCTURE */
 
 .page-margin {
+  margin-top: 5%;
+  margin-bottom: 5%;
   margin-right: 15%;
   margin-left: 15%;
-  border: 1px solid red;
+  border: 1px solid #560bad;
 }
 
 .general-text {
