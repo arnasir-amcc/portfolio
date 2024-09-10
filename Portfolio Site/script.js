@@ -50,7 +50,27 @@ function injectHeader() {
 
 injectHeader();
 
+// OnClick events for each navigation tab.
+document.getElementById("nav-about").onclick = toAboutPage;
+document.getElementById("nav-cv").onclick = toCVPage;
+document.getElementById("nav-projects").onclick = toProjectsPage;
+document.getElementById("nav-contact").onclick = toContactPage;
 
+// Checks which page you're on, and changes navigation bar tab to white accordingly.
+switch (window.location.href) {
+    case "http://127.0.0.1:5500/about.html":
+        document.getElementById("nav-about").style.color = 'white';
+        break;
+    case "http://127.0.0.1:5500/cv.html":
+        document.getElementById("nav-cv").style.color = 'white';
+        break;
+    case "http://127.0.0.1:5500/projects.html":
+        document.getElementById("nav-projects").style.color = 'white';
+        break;
+    case "http://127.0.0.1:5500/contact.html":
+        document.getElementById("nav-contact").style.color = 'white';
+        break;
+}
 
 
 function injectFooter() {
@@ -91,11 +111,8 @@ function toProjectsPage() {
 }
 
 function toContactPage() {
-    location.href = "contact_me.html";
+    location.href = "contact.html";
 }
 
-// OnClick events for each navigation tab.
-document.getElementById("nav-about").onclick = toAboutPage;
-document.getElementById("nav-cv").onclick = toCVPage;
-document.getElementById("nav-projects").onclick = toProjectsPage;
-document.getElementById("nav-contact").onclick = toContactPage;
+
+
