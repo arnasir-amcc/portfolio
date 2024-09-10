@@ -4,6 +4,19 @@
   padding: 0;
   box-sizing: border-box;
   background-color: black;
+  overflow: hidden;
+}
+
+ /* Hide scrollbar for Chrome, Safari and Opera */
+ html, body {
+  overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+
+html::-webkit-scrollbar, body::-webkit-scrollbar { /* WebKit */
+  width: 0;
+  height: 0;
 }
 
 navigation-bar {
@@ -125,6 +138,7 @@ footer {
 
 /*  SECTION: ABOUT PAGE */
 
+
 #about-page-image {
   background-image: url(media/1.PNG);
   background-position: center;
@@ -140,10 +154,29 @@ footer {
   grid-column-end: span 4;
 }
 
+#about-page-skill-box-parent {
+  display: flex;
+  justify-content: center;
+  padding-left: 50px;
+}
+
+#about-page-skill-box {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  width: 50%;
+  border: 1px solid #560bad;
+  box-shadow: 0px 0px 150px 20px #560bad;;
+}
+
+
 #about-page-skill-title {
+  display: flex;
   grid-column-end: span 4;
   font-size: 32px;
   font-family: NameBanner;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
 }
 
 #skill-list {
