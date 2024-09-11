@@ -243,12 +243,43 @@ footer {
   background-repeat: no-repeat;
   background-position: center;
   grid-column: span 1;
+  width: 400px;
 }
 
-.projects-page-descriptions {
-  border: 1px solid green;
+.projects-page-description-boxes {
   grid-column: span 3;
+  border: 1px solid green; 
+  font-family:GeneralText;
+  font-size: 20px;
+  color: silver;
+  padding: 10px;
 }
+
+.projects-page-description-titles {
+  font-family: GeneralText;
+  font-size: 36px;
+  color: white;
+  display: grid;
+  justify-content: center;
+  border-bottom: 1px solid #560bad;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+
+.projects-page-description-texts {
+  padding: 20px;
+
+}
+
+
+#projects-page-iframe1 {
+  width: 100%;
+  height: 100%;
+}
+
+
 
 
 
@@ -527,15 +558,16 @@ footer {
 
 @font-face {
   font-family: NameBanner;
-  src: url(fonts/Painting_With_Chocolate.ttf);
+  src: url(fonts/RoleModelPersonalUseRegular-8MooA.otf);
 }
 
 @font-face {
   font-family: GeneralText1;
-  src: url(fonts/rm_typerighter_medium.ttf);
+  src: url(fonts/cardo.regular.ttf);
 }
 
 @font-face {
   font-family: PrettyText;
   src: url(fonts/Tangerine_Regular.ttf);
 }
+
