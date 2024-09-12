@@ -234,15 +234,15 @@ footer {
   display: grid;
   padding: 20px;
   margin: 20px;
-  grid: 400px 400px / auto auto auto auto ;
-  border: 1px solid #560bad;
+  grid: 450px 450px / auto auto auto auto ;
   color: white;
-  gap: 50px 50px;
+  gap: 80px 50px;
+  letter-spacing: 0.3mm;
 }
 
 #projects-page-list-box {
   color: silver;
-  padding: 20px;
+  padding: 30px;
 }
 
 #projects-page-list {
@@ -258,20 +258,30 @@ footer {
 
 .projects-page-description-boxes {
   grid-column: span 3;
-  border: 1px solid green; 
   font-family:GeneralText;
   font-size: 19px;
-  letter-spacing: 0.1mm;
   color: silver;
   padding: 10px;
 }
 
 .projects-page-pictures {
-  border: 1px solid red;
   background-repeat: no-repeat;
   background-position: center;
   grid-column: span 1;
   width: 400px;
+  border: 1px solid #560bad;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#projects-page-pic3 {
+  background-image: url(media/ai-alg.PNG);
+
+}
+
+#projects-page-pic4 {
+  background-image: url(media/website-progress.PNG);
 }
 
 .projects-page-iframes {
@@ -296,39 +306,30 @@ footer {
   padding: 20px;
 }
 
-
-
-/*  SLIDESHOW - HYPERPLEXED ON YOUTUBE  */
-
 #projects-page-slideshow-box {
   height: 600px;
-  padding-left: 800px;
-  margin: -50px 0px -50px 0px;
-  box-shadow: inset 1px 0px 50px 10px #560bad; 
+  padding-left: 7%;
 }
-
 
 #image-track {
   display: flex;
   gap: 4vmin;
-  left: 50%;
-  top: 50%;
   width: 3000px;
   transform: translate(0%, -50%); 
   user-select: none; /* -- Prevent image highlighting -- */
 }
 
 .project-images {
-  border: 1px solid red;
+  box-shadow: 1px 0px 25px 1px #560bad;
   background-repeat: no-repeat;
   background-size: contain;
   width: 300px;
   height: 1500px;
+  background-position-y: 750px;
 }
 
 #project-image1 {
   background-image: url(media/PDE3413/1.jpg);
-  background-position-y: 750px;
 }
 
 #project-image2 {
@@ -338,7 +339,23 @@ footer {
   background-position-x: -180px;
 }
 
+#project-image3 {
+  background-image: url(media/PDE3413/3.jpeg);
+  background-size: 120%;
+  background-position-y: 750px;
+}
 
+#project-image4 {
+  background-image: url(media/PDE3413/4.jpg);
+}
+
+#project-image5 {
+  background-image: url(media/PDE3413/5.jpeg);
+}
+
+#project-image6 {
+  background-image: url(media/PDE3413/6.jpg);
+}
 
 
 /*  SECTION: BUTTONS  */
