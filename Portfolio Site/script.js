@@ -58,7 +58,7 @@ document.getElementById("nav-contact").onclick = toContactPage;
 
 // Checks which page you're on, and changes navigation bar tab to white accordingly.
 switch (window.location.href) {
-    case "http://127.0.0.1:5500/about.html":
+    case "http://127.0.0.1:5500/index.html":
         document.getElementById("nav-about").style.color = 'white';
         break;
     case "http://127.0.0.1:5500/cv.html":
@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 function toAboutPage() {
-    location.href = "about.html";
+    location.href = "index.html";
 }
 
 function toCVPage() {
