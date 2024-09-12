@@ -238,6 +238,25 @@ footer {
   gap: 50px 50px;
 }
 
+#projects-page-list-box {
+  font-family: GeneralText;
+  color: silver;
+  list-style-position: inside;
+  padding: 10px;
+}
+
+
+
+.projects-page-description-boxes {
+  grid-column: span 3;
+  border: 1px solid green; 
+  font-family:GeneralText;
+  font-size: 19px;
+  letter-spacing: 0.1mm;
+  color: silver;
+  padding: 10px;
+}
+
 .projects-page-pictures {
   border: 1px solid red;
   background-repeat: no-repeat;
@@ -246,13 +265,9 @@ footer {
   width: 400px;
 }
 
-.projects-page-description-boxes {
-  grid-column: span 3;
-  border: 1px solid green; 
-  font-family:GeneralText;
-  font-size: 20px;
-  color: silver;
-  padding: 10px;
+.projects-page-iframes {
+  width: 100%;
+  height: 100%;
 }
 
 .projects-page-description-titles {
@@ -270,14 +285,9 @@ footer {
 
 .projects-page-description-texts {
   padding: 20px;
-
 }
 
 
-#projects-page-iframe1 {
-  width: 100%;
-  height: 100%;
-}
 
 
 
