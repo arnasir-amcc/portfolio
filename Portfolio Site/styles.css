@@ -226,6 +226,8 @@ footer {
 }
 
 
+
+
 /*  SECTION: PROJECTS PAGE  */
 
 #projects-page-main-grid {
@@ -252,7 +254,6 @@ footer {
   box-shadow: 1px 0px 50px #560bad; 
   letter-spacing: 0.1mm;
 }
-
 
 
 .projects-page-description-boxes {
@@ -294,11 +295,6 @@ footer {
 .projects-page-description-texts {
   padding: 20px;
 }
-
-
-
-
-
 
 
 /*  SECTION: BUTTONS  */
