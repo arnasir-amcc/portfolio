@@ -47,8 +47,6 @@ navigation-bar {
   /* Allow interaction */
 }
 
-
-
 /* Hidden state of the overlay */
 #overlay.hidden {
   opacity: 0;
