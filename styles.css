@@ -122,6 +122,7 @@ footer {
   margin-top: 2vw;
   border-top: 1px solid #560bad;
   color: silver;
+  font-family: GeneralText;
 }
 
 
@@ -132,7 +133,7 @@ footer {
   grid-template-columns: 20% auto auto auto;
   grid-gap: 1vw;
   padding: 1vw;
-  text-align:justify;
+  text-align: justify;
 }
 
 #about-page-image {
@@ -148,16 +149,19 @@ footer {
 #about-page-text {
   grid-column-end: span 3;
   font-family: GeneralText;
+  font-size: 1.2vw;
 }
 
 #about-page-full-width-text {
   grid-column-end: span 4;
   font-family: GeneralText;
+  font-size: 1.2vw;
 }
 
 #about-page-skill-box-parent {
   display: flex;
   justify-content: center;
+  font-size: 1.2vw;
 }
 
 #about-page-skill-box {
@@ -165,7 +169,7 @@ footer {
   justify-content: center;
   padding: 1vw;
   border: 1px solid #560bad;
-  box-shadow: 0px 0px 150px 20px #560bad;
+  box-shadow: 0px 0px 5vw 20px #560bad;
 }
 
 #about-page-skill-title {
@@ -181,6 +185,7 @@ footer {
   border-left: #560bad solid 2px;
   list-style-type: none;
   padding: 1.5vw 2vw;
+  font-size: 1.5vw;
 }
 
 .skill-headings {
@@ -227,84 +232,20 @@ footer {
 /*  SECTION: PROJECTS PAGE  */
 
 
-
-#projects-page-list-box {
-  color: silver;
-  padding: 30px;
-  letter-spacing: 0.2mm;
-  line-height: 1.6;
-}
-
 #projects-page-list {
+  color: silver;
   border: 2px solid #560bad;
-  padding: 20px;
+  padding: 4vh;
   box-shadow: 1px 0px 40px #560bad; 
   list-style-position: inside;
   font-family: GeneralText;
-  font-size: 18px;
+  font-size: 1vw;
   margin-top: 5%;
   margin-bottom: 5%;
   margin-right: 15%;
   margin-left: 15%;
-}
-
-#projects-page-main-grid {
-  display: grid;
-  padding: 20px;
-  margin: 20px;
-  grid: 450px 450px / auto auto auto auto ;
-  color: white;
-  gap: 80px 50px;
   letter-spacing: 0.3mm;
-}
-
-.projects-page-description-boxes {
-  grid-column: span 3;
-  font-family:GeneralText;
-  font-size: 19px;
-  color: silver;
-  padding: 10px;
-  line-height: 1.3;
-}
-
-.projects-page-pictures {
-  grid-column: span 1;
-  width: 400px;
-  border: 1px solid #560bad;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-#projects-page-pic3 {
-  background-image: url(media/ai-alg.PNG);
-
-}
-
-#projects-page-pic4 {
-  background-image: url(media/website-progress.PNG);
-}
-
-.projects-page-iframes {
-  width: 100%;
-  height: 100%;
-}
-
-.projects-page-description-titles {
-  font-family: GeneralText;
-  font-size: 36px;
-  color: white;
-  display: grid;
-  justify-content: center;
-  border-bottom: 1px solid #560bad;
-  padding-bottom: 20px;
-  padding-top: 10px;
-  text-align: center;
-}
-
-
-.projects-page-description-texts {
-  padding: 20px;
+  line-height: 1.6;
 }
 
 #projects-page-slideshow-title {
@@ -331,7 +272,7 @@ footer {
   padding-top: 5vh;
   padding-bottom: 5vh;
   width: 90vw;
-  height: 65vh;
+  height: 70vh;
   padding-left: 10vw;
 }
 
@@ -368,6 +309,68 @@ footer {
   background-image: url(media/PDE3413/6.jpg);
 }
 
+
+#projects-page-main-grid {
+  display: grid;
+  padding: 2vw;
+  grid: 30vw 30vw 30vw 30vw / auto auto auto auto ;
+  color: white;
+  gap: 7vw 2vw;
+  letter-spacing: 0.3mm;
+}
+
+.projects-page-iframes {
+  width: 100%;
+  height: 100%;
+}
+
+.projects-page-description-boxes {
+  grid-column: span 3;
+  font-family: GeneralText;
+  font-size: 1vw;
+  color: silver;
+  line-height: 1.3;
+}
+
+.projects-page-description-titles {
+  font-family: GeneralText;
+  font-size: 1.6vw;
+  color: white;
+  display: grid;
+  justify-content: center;
+  border-bottom: 1px solid #560bad;
+  padding-bottom: 1vw;
+  padding-top: 0.5vw;
+  text-align: center;
+  margin: 2vw 1vw 0px 1vw;
+}
+
+.projects-page-description-texts {
+  padding: 1vw;
+}
+
+.projects-page-pictures {
+  grid-column: span 1;
+  width: 30vw;
+  border: 1px solid #560bad;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#projects-page-pic3 {
+  background-image: url(media/ai-alg.PNG);
+}
+
+#projects-page-pic4 {
+  background-image: url(media/website-progress.PNG);
+}
+
+
+
+
+
+
 /*  SECTION: CONTACT ME */
 
 #contact-page-grid {
@@ -381,7 +384,6 @@ footer {
   margin-left: 20%;
   box-shadow: 1px 0px 50px #560bad;
 }
-
 
 
 #contact-page-title {
