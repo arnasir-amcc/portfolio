@@ -209,6 +209,7 @@ footer {
 
 #cv-page-download-button-box {
   grid-column: span 1;
+  grid-column-start: 5;
   align-items: center;
   justify-content: center;
 }
@@ -225,15 +226,7 @@ footer {
 
 /*  SECTION: PROJECTS PAGE  */
 
-#projects-page-main-grid {
-  display: grid;
-  padding: 20px;
-  margin: 20px;
-  grid: 450px 450px / auto auto auto auto ;
-  color: white;
-  gap: 80px 50px;
-  letter-spacing: 0.3mm;
-}
+
 
 #projects-page-list-box {
   color: silver;
@@ -249,8 +242,21 @@ footer {
   list-style-position: inside;
   font-family: GeneralText;
   font-size: 18px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-right: 15%;
+  margin-left: 15%;
 }
 
+#projects-page-main-grid {
+  display: grid;
+  padding: 20px;
+  margin: 20px;
+  grid: 450px 450px / auto auto auto auto ;
+  color: white;
+  gap: 80px 50px;
+  letter-spacing: 0.3mm;
+}
 
 .projects-page-description-boxes {
   grid-column: span 3;
@@ -301,26 +307,41 @@ footer {
   padding: 20px;
 }
 
+#projects-page-slideshow-title {
+  color: silver;
+  font-size: 3vw;
+  display: flex;
+  justify-content: center;
+  padding: 1vw;
+  border-bottom: 2px solid #560bad;
+  width: 40%;
+  margin-left: 30%;
+  margin-bottom: 2vw;
+  font-family: GeneralText;
+}
+
 #projects-page-slideshow-box {
-  height: 600px;
-  padding-left: 7%;
+  height: 80vh;
 }
 
 #image-track {
   display: flex;
   gap: 4vmin;
-  width: 3000px;
-  transform: translate(0%, -50%); 
   user-select: none; /* -- Prevent image highlighting -- */
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  width: 90vw;
+  height: 65vh;
+  padding-left: 10vw;
 }
 
 .project-images {
-  box-shadow: 1px 0px 25px 1px #560bad;
+  border: 1px solid #560bad;
+  box-shadow: 1px 0px 15px 1px #560bad;
   background-repeat: no-repeat;
-  background-size: contain;
-  width: 300px;
-  height: 1500px;
-  background-position-y: 750px;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
 }
 
 #project-image1 {
@@ -329,15 +350,10 @@ footer {
 
 #project-image2 {
   background-image: url(media/PDE3413/2.jpg);
-  background-size: 200%;
-  background-position-y: 900px;
-  background-position-x: -180px;
 }
 
 #project-image3 {
   background-image: url(media/PDE3413/3.jpeg);
-  background-size: 120%;
-  background-position-y: 750px;
 }
 
 #project-image4 {
@@ -536,7 +552,8 @@ final {
   color: silver;
   transition: background 0.1s;
   border: 1px solid purple;
-  margin-top: 3vw;
+  margin-top: 2.5vw;
+  margin-right: 1.5vw;
 }
 
 #cv-page-download-button::before {
@@ -640,12 +657,13 @@ final {
 .shadow__btn {
   padding: 20px 40px;
   border: none;
-  font-size: 32px;
+  font-size: 1.5vw;
   color: silver;
   border-radius: 7px;
   letter-spacing: 2px;
   font-weight: 700;
   transition: 0.5s;
+  text-transform: lowercase;
   font-family: GeneralText;
   transition-property: box-shadow;
   grid-column: span 1;
@@ -653,6 +671,7 @@ final {
 }
 
 #github-button {
+  color: darkslategrey;
   background: #39d353;
   box-shadow: 0 0 25px #39d353;
 }
