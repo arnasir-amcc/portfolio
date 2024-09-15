@@ -123,6 +123,7 @@ footer {
   border-top: 1px solid #560bad;
   color: silver;
   font-family: GeneralText;
+  font-size: .6vw;
 }
 
 
@@ -161,7 +162,6 @@ footer {
 #about-page-skill-box-parent {
   display: flex;
   justify-content: center;
-  font-size: 1.2vw;
 }
 
 #about-page-skill-box {
@@ -179,13 +179,15 @@ footer {
   font-family: NameBanner;
   flex-direction: column-reverse;
   justify-content: space-evenly;
+  font-size: 1.5vw;
+
 }
 
 #skill-list {
   border-left: #560bad solid 2px;
   list-style-type: none;
   padding: 1.5vw 2vw;
-  font-size: 1.5vw;
+  font-size: 1.2vw;
 }
 
 .skill-headings {
@@ -240,10 +242,6 @@ footer {
   list-style-position: inside;
   font-family: GeneralText;
   font-size: 1vw;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  margin-right: 15%;
-  margin-left: 15%;
   letter-spacing: 0.3mm;
   line-height: 1.6;
 }
@@ -374,14 +372,13 @@ footer {
 /*  SECTION: CONTACT ME */
 
 #contact-page-grid {
-  border: 1px solid #560bad;
+  border: 2px solid #560bad;
   display: grid;
-  grid: 100px 80px / auto auto auto;
-  padding: 50px;
-  margin-top: 80px;
+  grid: 6vw 5vw / auto auto auto;
+  padding: 5vw;
   gap: 50px;
-  width: 60%;
-  margin-left: 20%;
+  width: 70%;
+  margin-left: 15%;
   box-shadow: 1px 0px 50px #560bad;
 }
 
@@ -389,21 +386,21 @@ footer {
 #contact-page-title {
   display: flex;
   justify-content: center;
-  padding-top: 20px;
   grid-column: 1 / span 3;
   color: white;
   font-family: GeneralText;
   letter-spacing: 0.3mm;
-  font-size: 40px;
-  color: silver;
+  font-size: 3vw;
   grid-column-start: 2;
   grid-column-end: 3;
+  background: none;
+  border-bottom: 1px solid red;
 }
 
 final {
   color: silver;
   font-family: PrettyText;
-  font-size: 60px;
+  font-size: 3vw;
   display: flex;
   justify-content: center;
 }
@@ -657,12 +654,12 @@ final {
 
 /* From Uiverse.io by mrhyddenn */ 
 .shadow__btn {
-  padding: 20px 40px;
+  padding: 1vw 2vw;
   border: none;
   font-size: 1.5vw;
   color: silver;
   border-radius: 7px;
-  letter-spacing: 2px;
+  letter-spacing: .3mm;
   font-weight: 700;
   transition: 0.5s;
   text-transform: lowercase;
@@ -730,9 +727,8 @@ final {
 }
 
 .general-text {
-  font-size: 20px;
-  padding: 10px;
-  font-family: GeneralText1;
+  padding: 1vw;
+  font-family: GeneralText;
   color: silver;
 }
 
