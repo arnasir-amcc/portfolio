@@ -394,7 +394,7 @@ footer {
   grid-column-start: 2;
   grid-column-end: 3;
   background: none;
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid #560bad;
 }
 
 final {
