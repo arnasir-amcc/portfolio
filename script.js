@@ -79,7 +79,7 @@ function injectFooter() {
 
     // Create the <p> tag.
     const footerText = document.createElement('p');
-    footerText.innerHTML = '&copy; 2024 Abdur Rehman Nasir. All rights reserved.';
+    footerText.innerHTML = '&copy; 2023 Abdur Rehman Nasir. All rights reserved.';
 
     // Append the paragraph to the footer.
     footer.appendChild(footerText);
